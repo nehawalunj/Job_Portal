@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+<body>
+  {{ data.as_p }}
+  <!-- search here-->
+  <!--<form class="" action="/userapp/searchmech/{{x.id}}/" method="GET"> {% csrf_token %}
+    Search :<<input type="text" name="search" value="">
+    <button type="submit" name="button">SEARCH</button>
+
+  </form> -->
+  <table border="black" class="table">
+    <h1 style="color:white;"> Mechanical Jobs</h1>
+    <thead class="thead-dark">
+      <tr>
+        <th> Company Name </th>
+        <th> Job Title </th>
+        <th> Description </th>
+        <th> Designation </th>
+        <th> Experience </th>
+        <th> Package </th>
+        <th> Location</th>
+        <th> Apply Here </th>
+
+      </tr>
+    </thead>
+
+    {% for x in data %}
+    <tr class="table-success">
+      <td> {{ x.company_name }} </td>
+      <td> {{ x.job_title }} </td>
+      <td> {{ x.description }} </td>
+      <td> {{ x.designation }} </td>
+      <td> {{ x.experience }} </td>
+      <td> {{ x.package }} </td>
+      <td> {{ x.location }} </td>
+
+
+
+      <td>
+        <form class="" action="/userapp/#/{{x.id}}/"" method="get">
+          <button class="btn btn-info" type="submit" name="button">Apply Now</button>
+        </form>
+      </td>
+
+
+    </tr>
+    {% endfor %}
+
+  </table>
+  <a class="btn btn-info" href="/userapp/welcome/" role="button">Back</a>&nbsp
+
+
+</body>
+</html>

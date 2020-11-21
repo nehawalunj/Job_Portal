@@ -1,0 +1,21 @@
+h1{
+}
+
+.jumbotron{
+  text-align: center;
+  margin-top: 100px;
+  font: Trajan;
+  background-color: #0f151561;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-bottom: 250px;
+  color: white;
+  background-size: auto;
+}
+
+body{
+  background: url('/static/images/user1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}

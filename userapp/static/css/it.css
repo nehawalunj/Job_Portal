@@ -1,0 +1,23 @@
+body{
+  background-image: url('/static/images/3.png/');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.table{
+  text-align: center;
+  text-overflow :clip;
+  border-color: #F8F9F9;
+}
+.table {
+    width: 80%;
+    margin-bottom: 1rem;
+}
+.table-success, .table-success>td, .table-success>th {
+    background-color: #c3e6cb1f;
+}
+th, td {
+
+  text-align: center;
+  color: white;
+}

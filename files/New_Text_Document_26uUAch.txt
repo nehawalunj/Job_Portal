@@ -1,0 +1,8 @@
+def it_model_form_add(request):
+    form = ITJobInfoForm()
+    if request.method == "POST":
+        form = ITJobInfoForm(request.POST)
+        if form.is_valid():
+            form.save()
+        return redirect("/firstapp/itshowadmin/")
+    return render(request,"Modelform/it_job_add.html",{"form":form})

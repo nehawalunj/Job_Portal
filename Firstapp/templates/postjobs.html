@@ -1,0 +1,28 @@
+
+<!-- this is from index page to administration login to post jobs-->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  {% load static%}
+  <head>
+    <meta charset="utf-8">
+    <title>Admin Post Jobs</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- css link -->
+    <link rel="stylesheet" href="{%  static "css/postjobs.css" %}">
+  </head>
+  <body>
+    <div class="jumbotron">
+      <!-- this is for admin panel-->
+      <center>
+
+      <h1 class="display-4">Welcome To Admin Panel !!</h1>
+      <h4>Do you have account ?<br><br> <a class="btn btn-warning" href="/firstapp/adminlogin/" role="button">Login</a>&nbsp &nbsp<br><br>
+      New user,Register here!! <br><br><a class="btn btn-warning" href="/firstapp/adminregister/" role="button">sign up</a><br>
+      </h4>
+      <!--<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>-->
+
+      </center>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<!-- this template is for adding civil jobs-->
+<html lang="en" dir="ltr">
+  <head>
+    {% load static %}
+    <meta charset="utf-8">
+    <title>Adding Civil data</title>
+    <!-- bootsrtap cdn -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- css link -->
+    <link rel="stylesheet" href="{%  static "css/addcivil.css" %}">
+  </head>
+  <body>
+    <div class="jumbotron">
+      <form class="" action="/firstapp/addciviljobs/" method="POST"> {% csrf_token %}
+        {{form.as_p}}
+        <a href="/firstapp/civildata/">
+        <button type="submit" class="btn btn-warning" name="button">Add</button><br><br>
+        </a>
+      </form>
+    </div>
+  </body>
+</html>

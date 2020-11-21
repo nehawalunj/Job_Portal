@@ -1,0 +1,19 @@
+
+.jumbotron{
+  text-align: center;
+  margin-top: 220px;
+  font: Trajan;
+  background-color: #0f151561;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-bottom: 200px;
+  color: white;
+  background-size: auto;
+}
+
+body{
+  background: url('/static/images/admin1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}

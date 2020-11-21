@@ -1,0 +1,28 @@
+<!-- this is from index page to User login to view jobs-->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    {% load static%}
+    <meta charset="utf-8">
+    <title>User login</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="{%  static "css/user.css" %}">
+  </head>
+  <body>
+    <div class="jumbotron">
+      <!-- this is for user  panel wheree registration and login here-->
+      <center>
+
+      <h1 class="display-4">Welcome To User Login</h1>
+      <h4>
+        Do you have account ? <br><br><a class="btn btn-warning" href="/userapp/userlogin/">Login</a>&nbsp &nbsp<br><br>
+       New User,Register here!! <br><br><a class="btn btn-warning" href="/userapp/userregister/">sign up</a><br><br>
+    </h4>
+
+
+      </center>
+    </div>
+  </body>
+</html>

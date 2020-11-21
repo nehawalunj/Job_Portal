@@ -1,0 +1,30 @@
+
+element.style {
+    font-family: -webkit-pictograph;
+}
+body{
+  background-image: url('/static/images/3.png/');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.table{
+  background-color: #343a400f;
+  text-align: center;
+  text-overflow :clip;
+  border-color: #F8F9F9;
+}
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    /* color: #212529; */
+}
+.table-success, .table-success>td, .table-success>th {
+    background-color: #c3e6cb0f;
+}
+
+th, td {
+  padding: 5px;
+  text-align: center;
+  color: white;
+}

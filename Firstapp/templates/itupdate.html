@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<!-- To update IT jobs data-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>update IT</title>
+  </head>
+  <body>
+    <form class="" action="/firstapp/itupdate/{{obj.id}}/" method="POST"> {% csrf_token %}
+      {{ form.as_p }}
+      <button type="submit" name="button">Update</button>
+
+    </form>
+
+  </body>
+</html>

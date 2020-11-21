@@ -1,0 +1,106 @@
+body{
+  background: url('/static/images/8.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.jumbotron{
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-bottom: 100px;
+  color: white;
+  background-color: #13100b80;
+}
+.table{
+  font-size: 30;
+  background-color: #170b0bf2;
+  color: white;
+}
+navbar{
+  background-color: #1214171c;
+}
+.bg-light {
+  background-color: #0e101317;
+}
+
+/* Style all font awesome icons */
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.btn-icon{
+  letter-spacing: 0.1em;
+  color: #fff;
+}
+i.fa{
+  font-size: 30px;
+}
+.btn:hover{
+  transform: scale(1.2);
+  box-shadow: none;
+}
+/* Set a specific color for each brand */
+.container{
+  display: flex;
+  width: 330px;
+  justify-content: space-around;
+  background-color: #881f1f08;
+}
+f.fa{
+font-size: 30px;
+}
+/*
+.btn-instgram{
+  background-color: #F10C66;
+}
+.btn-github{
+  background-color: #1da1f2;
+}
+.btn-facebook{
+  background-color: #3b5998;
+}
+.btn-twitter{
+  background-color: #0C89F1;
+}
+*/
+/*
+.container{
+display: flex;
+width: 330px;
+justify-content: space-around;
+}
+.btn{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 70px;
+width: 70px;
+border-radius: 50%;
+border: none;
+transition-duration: .5s;
+transform: rotateX(45deg);
+box-shadow: 0 10px 5px;
+rgba(0,0,0,.3);
+cursor: pointer;
+}
+
+
+.btn-icon{
+letter-spacing: 0.lem;
+}
+.btn:hover{
+transform: scale(1.2);
+box-shadow: none;
+}
+f.fa{
+font-size: 30px;
+}
+*/

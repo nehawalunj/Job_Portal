@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  {% load static %}
+  <meta charset="utf-8">
+  <title>HomePage</title>
+
+  <!-- bootsrtap cdn -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <!-- css link -->
+  <link rel="stylesheet" href="{%  static "css/index.css" %}">
+  <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="/firstapp/index/">Job Portal</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href=""/firstapp/contactus/"">Contact Us <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/firstapp/aboutus/">About US</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="/firstapp/index/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Home
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="/userapp/user/" tabindex="-1" aria-disabled="true">Find Jobs</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  <!--<div align="right">
+
+  <a class="btn btn-dark" href="/firstapp/index/">Home </a> &nbsp
+
+  <a class="btn btn-dark" href="/firstapp/contactus/">Contact Us</a> &nbsp
+  <a class="btn btn-dark" href="/firstapp/aboutus/">About Us</a>
+</div>-->
+
+
+
+<div class="jumbotron">
+  <h1 class="display-4" >WELCOME TO JOB PORTAL</h1>
+  <!-- This is for admin login panel-->
+  <h5>
+    For Employers , Your next Hire is here !!<br><br>
+    <a class="btn btn-primary btn-lg" href="http://127.0.0.1:8000/firstapp/postjobs/"  role="button">Post Jobs</a><br><br>
+    <!-- This is for admin login panel-->
+    Find Your Dream Job Here !!<br><br>
+    <a class="btn btn-primary btn-lg" href="http://127.0.0.1:8000/userapp/user/" role="button">Find Jobs</a><br>
+  </h5>
+</div>
+<h1 align="center"> Join Us On:</h1>
+<div class="container" align="center">
+
+  <a class="btn btn-instagram">
+    <i class="fa fa-instagram" aria-hidden="true"></i>
+  </a>
+  <a class="btn btn-github">
+    <i class="fa fa-github" aria-hidden="true"></i>
+  </a>
+  <a href="https://www.facebook.com/neha.walunj.180" class="btn btn-facebook">
+    <i class="fa fa-facebook" aria-hidden="true"></i>
+  </a>
+  <a href="https://twitter.com/NehaWalunj?s=09" class="btn btn-twitter">
+    <i class="fa fa-twitter" aria-hidden="true"></i>
+  </a>
+  <a href="https://www.linkedin.com/in/neha-walunj-400376179" class="btn btn-linkedin">
+    <i class="fa fa-linkedin" aria-hidden="true"></i>
+  </a>
+  <a class="btn btn-snapchat">
+    <i class="fa fa-snapchat-ghost" aria-hidden="true"></i>
+  </a>
+</div>
+<div>
+
+  <table class="table table-borderless">
+    <thead>
+      <tr>
+        <th scope="col">Services</th>
+        <th scope="col">Community</th>
+        <th scope="col">Work with us</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+
+        <td>Web Apps </td>
+        <td>Help/Contact Us</td>
+        <td>Developers</td>
+      </tr>
+      <tr>
+
+        <td>Hosting Add-Ons</td>
+        <td>Blog</td>
+        <td>Advertisers</td>
+      </tr>
+      <tr>
+        <td>Customization</td>
+        <td>Privacy & Cookies</td>
+        <td>Careers</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+</body>
+</html>
